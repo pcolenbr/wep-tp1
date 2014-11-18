@@ -2,7 +2,7 @@
 
 <html>
 
-<?php //$site_url = 'http://www.pedro.dreamt.com.br'; ?>
+<?php //$site_url = 'http://www.tp1.dreamt.com.br'; ?>
 <?php $site_url = 'http://localhost/tp1'; ?>
 
 <head>
@@ -40,12 +40,22 @@
 
 		<img class="img-responsive logo" src="<?php echo $site_url?>/images/logo.png" >
 
+
+		<button type="button" class="navbar-toggle button-toggle-top"
+				data-toggle="collapse" data-target="#bs-example-navbar-collapse">
+			<span class="sr-only">Toggle navigation</span> <span
+				class="icon-bar"></span> <span class="icon-bar"></span> <span
+				class="icon-bar"></span>
+		</button>
+
 		<nav>
-			<ul class="menu">
-				<li><a href="#div-inicio">Início</a></li>
-				<li><a href="#div-projetos">Projetos</a></li>
-				<li><a href="#div-curriculo">Currículo</a></li>
-				<li><a href="#div-contato">Contato</a></li>
-			</ul>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse">
+				<ul class="menu">
+					<li><a href="#div-inicio">Início</a></li>
+					<li><a href="#div-projetos">Projetos</a></li>
+					<li><a href="#div-curriculo">Currículo</a></li>
+					<li><a href="#div-contato">Contato</a></li>
+				</ul>
+			</div>
 		</nav>
 	</header>

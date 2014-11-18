@@ -17,7 +17,7 @@
 				</p>
 			</div>
 
-			<div class="col-lg-2 col-md-9 col-sm-7 col-xs-12">
+			<div class="col-lg-2 col-md-9 col-sm-7 col-xs-12 image">
 				<img class="img-responsive foto" src="<?php echo $site_url?>/images/foto-index.png" >
 			</div>
 

@@ -1,4 +1,12 @@
 jQuery(function() {
+	jQuery('#dt_carousel').swiperight(function() {  
+		  jQuery(this).carousel('prev');  
+	}); 
+	
+	jQuery('#dt_carousel').swipeleft(function() {  
+		  jQuery(this).carousel('next');  
+	});
+	
 	jQuery(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
 		event.preventDefault();
 		jQuery(this).ekkoLightbox({gallery_parent_selector : ''});

@@ -1,8 +1,27 @@
+@cor_texto: #151a20;
+@cor_titulos: #2f4e6f;
 @media ( min-width : 768px) { 
 
 	/**** Header ****/
 	header {
 		padding: 15px 20px;
+		position: fixed;
+
+		nav {
+			display: inline-block;
+			position: inherit;
+			right: 25px;
+			top: 23px;
+		}
+
+		.menu {
+			li {
+				display: inline-block;
+				a {
+					color: @cor_texto;
+				}
+			}
+		}
 	}
 	/**** Fim Header ****/
 
@@ -25,6 +44,7 @@
 
 		.links {
 			padding-bottom: 20px;
+			border-left: 1px solid @cor_texto;
 		}
 		
 	}	
@@ -83,7 +103,7 @@
 	/**** Contato ****/
 	#div-contato {
 		>div {
-			
+			padding: 30px 15px;
 		}
 
 		.inputs {
@@ -95,4 +115,80 @@
 
 @media ( max-width : 767px) { 
 
-}
+	/**** Header ****/
+	header {
+		padding: 15px 20px 0px;
+
+		.menu {
+			margin-top: 10px;
+			li {
+				display: block;
+				text-align: center;
+				background: @cor_titulos;
+				a {
+					color: #f3f3f3;
+				}
+			}
+		}
+	}
+	/**** Fim Header ****/
+
+	/**** Inicio ****/
+	.div-inicio {
+		padding: 50px 15px 10px;
+
+		.qse {
+			.image {
+				text-align: center;
+			}
+			.foto {
+			display: inline-block;
+			}
+
+			h2 {
+				margin-top: 30px;
+			}
+
+			p {
+			}
+		}
+		
+	}	
+	/**** Fim Inicio ****/
+
+	/**** Projetos ****/
+	#div-projetos {
+		padding-top: 1px;
+		padding-bottom: 20px;
+		>div {
+			width: 80%;
+		}
+
+		h2 {
+			margin-bottom: 15px;
+		}
+		.dt_carousel {
+			.dt_carousel_control {
+				display: none;
+			}
+		}
+
+	}
+	/**** Fim Projetos ****/
+
+	/**** Like Buttons ****/
+	.like_bottuns {
+		display: none !important;
+	}
+	/**** Fim Like Buttons ****/
+
+	/**** Contato ****/
+	#div-contato {
+		padding: 5px 10px 20px;
+		.div-map {
+			display: none;
+		}
+	}
+	/**** Fim Contato ****/
+
+}	

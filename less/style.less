@@ -47,27 +47,17 @@ h2 {
 /**** Header ****/
 header {
 	background: #f3f3f3;
-	position: fixed;
 	width: 100%;
 	z-index: 999;
-
-	nav {
-		display: inline-block;
-		position: inherit;
-		right: 25px;
-		top: 23px;
-	}
 
 	.menu {
 		list-style-type: none;
 		padding: 0px;
 		margin-bottom: 0px;
 		li {
-			display: inline-block;
 			padding: 5px 3px;
 			a {
 				font-size: 19px;
-				color: @cor_texto;
 				padding: 4px 12px;
 			}
 			a:hover {
@@ -80,6 +70,13 @@ header {
 
 	.logo {
 		display: inline-block;
+	}
+
+	.navbar-toggle {
+		background: @cor_titulos;
+	}
+	.icon-bar {
+		background: #f3f3f3;
 	}
 }
 /**** Fim Header ****/
@@ -102,7 +99,6 @@ header {
 	}
 
 	.links {
-		border-left: 1px solid @cor_texto;	
 		margin-top: 30px;
 
 		a {
@@ -191,6 +187,8 @@ header {
 			color: #f3f3f3;
 			background: #2f4e6f;
 			padding: 10px 17px;
+			display: inline-block;
+			margin-bottom: 15px;
 		}
 
 		a:hover {
@@ -218,7 +216,6 @@ header {
 
 	>div {
 		margin: auto;
-		padding: 30px 15px;
 	}
 
 	.input-contato {
