@@ -16,12 +16,15 @@
 	<link rel="stylesheet" href="<?php echo $site_url?>/css/992.css" type="text/css" />
 	<link rel="stylesheet" href="<?php echo $site_url?>/css/1200.css" type="text/css" />
 	<link rel="stylesheet" href="<?php echo $site_url?>/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo $site_url?>/css/ekko-lightbox.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo $site_url?>/css/lightbox.css" type="text/css" />
 	
 	<script src="<?php echo $site_url?>/js/jquery-2.1.1.min.js"></script>
 	<script src="<?php echo $site_url?>/js/bootstrap.min.js"></script>
 	<script src="<?php echo $site_url?>/js/dt_disableJQueryAjax.js"></script>
 	<script src="<?php echo $site_url?>/js/jquery.mobile-1.4.4.min.js"></script>	
 	<script src="<?php echo $site_url?>/js/jquery.maskedinput.js"></script>	
+	<script src="<?php echo $site_url?>/js/ekko-lightbox.js"></script>
 	<script src="<?php echo $site_url?>/js/util.js"></script>
 
 </head>

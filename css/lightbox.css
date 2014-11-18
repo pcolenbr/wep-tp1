@@ -1,0 +1,22 @@
+.modal-content {
+	background: #f3f3f3 !important;
+	opacity: 0.95;
+	border-radius: 0px !important;
+}
+
+div .modal-body {
+	margin-top: 15px !important;
+	margin-bottom: 20px;
+}
+
+.ekko-lightbox-text {
+	color: white;
+}
+
+.close {
+	font-size: 40px !important;
+	color: #2f4e6f !important;
+	text-shadow: none !important;
+	opacity: 1 !important;
+	margin-top: -8px !important;
+}

@@ -1,4 +1,9 @@
 jQuery(function() {
+	jQuery(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+		event.preventDefault();
+		jQuery(this).ekkoLightbox({gallery_parent_selector : ''});
+	}); 
+
 	jQuery.mobile.loading().hide();
 
 	jQuery(document).bind("mobileinit", function () {
