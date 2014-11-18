@@ -1,0 +1,103 @@
+/**** Fonts ****/
+@font-face {
+	font-family: "EncodeSans";
+	src: url('../fonts/EncodeSans-Regular.eot');
+	src: url('../fonts/EncodeSans-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/EncodeSans-Regular.woff') format('woff'), url('EncodeSans-Regular.ttf')
+		format('truetype'), url('EncodeSans-Regular.svg#EncodeSans-Regular') format('svg');
+}
+
+@font-face {
+	font-family: "EncodeSans";
+	src: url('../fonts/EncodeSans-Bold.eot');
+	src: url('../fonts/EncodeSans-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/EncodeSans-Bold.woff') format('woff'), url('EncodeSans-Regular.ttf')
+		format('truetype'), url('EncodeSans-Bold.svg#EncodeSans-Bold') format('svg');
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "EncodeSans";
+	src: url('../fonts/EncodeSans-Light.eot');
+	src: url('../fonts/EncodeSans-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/EncodeSans-Light.woff') format('woff'), url('EncodeSans-Light.ttf')
+		format('truetype'), url('EncodeSans-Light.svg#EncodeSans-Light') format('svg');
+	font-weight: light;
+}
+/**** Fim Fonts ****/
+
+@cor_titulos: #2f4e6f;
+@cor_texto: #151a20;
+
+body {
+	font-family: "EncodeSans";
+	color: @cor_texto;
+}
+
+/**** Header ****/
+header {
+	background: #f3f3f3;
+	position: fixed;
+	width: 100%;
+
+	nav {
+		display: inline-block;
+		position: inherit;
+		right: 25px;
+		top: 23px;
+	}
+
+	.menu {
+		list-style-type: none;
+		padding: 0px;
+		margin-bottom: 0px;
+		li {
+			display: inline-block;
+			padding: 5px 3px;
+			a {
+				font-size: 19px;
+				color: @cor_texto;
+				padding: 4px 12px;
+			}
+			a:hover {
+				opacity: 0.7;
+				border: 2px solid @cor_texto;
+				text-decoration: none;
+			}
+		}
+	}
+
+	.logo {
+		display: inline-block;
+	}
+}
+/**** Fim Header ****/
+
+/**** Inicio ****/
+.div-inicio {
+	background-color: #A0AEC1; 
+	.qse {
+		.foto {
+
+		}
+
+		h2 {
+			color: @cor_titulos;
+			font-weight: bold;
+			vertical-align: top;
+		}
+
+		p {
+			display: inline-block;
+		}
+
+		div {
+			padding: 0px;
+		}
+	}
+
+	.link {
+		
+	}	
+}
+/**** Fim Inicio ****/
