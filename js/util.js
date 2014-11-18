@@ -12,7 +12,7 @@ jQuery(function() {
 
 	jQuery(document).ready(function() {
 		jQuery('#dt_carousel').carousel({
-			interval : 2500
+			interval : 3500
 		});
 	});
 
