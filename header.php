@@ -11,6 +11,12 @@
 
 	<link rel="icon" href="<?php echo $site_url?>/images/favicon.png">
 
+	<link rel="stylesheet" href="<?php echo $site_url?>/css/bootstrap.min.css" type="text/css" />	
+	<link rel="stylesheet" href="<?php echo $site_url?>/css/767.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo $site_url?>/css/992.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo $site_url?>/css/1200.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo $site_url?>/css/style.css" type="text/css" />
+	
 	<script src="<?php echo $site_url?>/js/jquery-2.1.1.min.js"></script>
 	<script src="<?php echo $site_url?>/js/bootstrap.min.js"></script>
 	<script src="<?php echo $site_url?>/js/dt_disableJQueryAjax.js"></script>
@@ -18,12 +24,6 @@
 	<script src="<?php echo $site_url?>/js/jquery.maskedinput.js"></script>	
 	<script src="<?php echo $site_url?>/js/util.js"></script>
 
-	<link rel="stylesheet" href="<?php echo $site_url?>/css/bootstrap.min.css" type="text/css" />	
-	<link rel="stylesheet" href="<?php echo $site_url?>/css/767.css" type="text/css" />
-	<link rel="stylesheet" href="<?php echo $site_url?>/css/992.css" type="text/css" />
-	<link rel="stylesheet" href="<?php echo $site_url?>/css/1200.css" type="text/css" />
-	<link rel="stylesheet" href="<?php echo $site_url?>/css/style.css" type="text/css" />
-	<link rel="stylesheet" href="<?php echo $site_url?>/css/carousel.css" type="text/css" />
 </head>
 
 <script type="text/javascript">

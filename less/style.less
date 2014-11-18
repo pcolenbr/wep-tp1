@@ -120,6 +120,10 @@ header {
 	.dt_carousel {
 		.dt_carousel_inner {
 			margin: auto;
+
+			img {
+				margin: auto;
+			}
 		}
 
 		.dt_carousel_control {
@@ -166,7 +170,8 @@ header {
 
 	h4 {
 		color: #f3f3f3;
-		font-weight: bold;	
+		font-weight: bold;
+		text-align: center;	
 	}
 
 	>div {
@@ -200,6 +205,20 @@ header {
 			background-color: #2f4e6f;
 			color:  #f3f3f3;
 		}	
+	}
+
+	.sn {
+		margin: auto;
+		-webkit-transition: -webkit-transform .8s ease-in-out;
+	    -ms-transition: -ms-transform .8s ease-in-out;
+    	transition: transform .8s ease-in-out;
+	     
+	    overflow:hidden;
+	}
+
+	.sn:hover {
+		-webkit-transform:rotate(360deg);
+	    -moz-transform:rotate(360deg);
 	}
 	
 }
