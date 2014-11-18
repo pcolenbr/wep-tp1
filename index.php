@@ -41,9 +41,17 @@
 			<a href="" target="_blank">http://101books.net/</a>
 			<a href="" target="_blank">http://www.loveandlemons.com/</a>
 		</div>
-	</div>
 
+	</div>
 </section>
+
+<div class="like_bottuns">
+	<div class='share'>
+		<div class="fb"><div class="fb-like" data-href="<?php echo $site_url?>" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div></div>
+		<g:plusone></g:plusone>
+		<div class="twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-url="<?php echo $site_url?>" data-text="Pedro Colen" data-lang="pt">Tweet</a></div>
+	</div>
+</div>
 
 <?php require_once 'projetos.php';?>
 <?php require_once 'curriculo.php';?>

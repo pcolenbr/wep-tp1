@@ -119,6 +119,33 @@ header {
 }
 /**** Fim Inicio ****/
 
+/**** Like Buttons ****/
+.like_bottuns {
+	padding: 30px 20px;
+	position: fixed;
+	top: 50%;
+	z-index: 999;
+	background: #2f4e6f;
+	-webkit-transition: all 0.7s ease-out;
+       -moz-transition: all 0.7s ease-out;
+        -ms-transition: all 0.7s ease-out;
+         -o-transition: all 0.7s ease-out;
+            transition: all 0.7s ease-out;
+
+	.share {
+		.fb {
+			margin-bottom: 13px;
+		}
+		.twitter {
+			margin-top: 8px;
+		}
+	}
+}
+.like_bottuns:hover {
+	left: 0px;
+}
+/**** Fim Like Buttons ****/
+
 /**** Projetos ****/
 #div-projetos {
 	background: #DBE8F9;
@@ -151,7 +178,8 @@ header {
 
 	.download {
 		text-align: center;
-
+		clear: both;
+		
 		p {
 			font-weight: bold;
 		}
