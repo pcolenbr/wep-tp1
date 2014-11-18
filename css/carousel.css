@@ -12,54 +12,66 @@
 	.dt_carousel_inner .prev {
 		left: -100%;
 	}
+
+	.dt_carousel .active div:nth-child(2) {
+		display: none;
+	}
 }
 
 @media ( min-width : 767px) {
 	.dt_carousel_inner .active.left {
-		left: -100%;
+		left: -50%;
 	}
 	.dt_carousel_inner .active.right {
-		left: 100%;
+		left: 50%;
 	}
 	.dt_carousel_inner .next {
-		left: 100%;
+		left: 50%;
 	}
 	.dt_carousel_inner .prev {
-		left: -100%;
+		left: -50%;
 	}
 }
 
 @media ( max-width : 992px) {
+	.dt_carousel .active div:nth-child(3) {
+		display: none;
+	}
 }
 
 @media ( min-width : 992px) {
 	.dt_carousel_inner .active.left {
-		left: -100%;
+		left: -33%;
 	}
 	.dt_carousel_inner .active.right {
-		left: 100%;
+		left: 33%;
 	}
 	.dt_carousel_inner .next {
-		left: 100%;
+		left: 33%;
 	}
 	.dt_carousel_inner .prev {
-		left: -100%;
+		left: -33%;
 	}
 }
 
-@media ( min-width : 1231px) {
-	.dt_carousel_inner .active.left {
-		left: -100%;
+@media ( max-width : 1230px) {
+	.dt_carousel .active div:nth-child(4) {
+		display: none;
 	}
-	
+}
+
+@media ( min-width : 1201px) {
+	.dt_carousel_inner .active.left {
+		left: -25%;
+	}
 	.dt_carousel_inner .active.right {
-		left: 100%;
+		left: 25%;
 	}
 	.dt_carousel_inner .next {
-		left: 100%;
+		left: 25%;
 	}
 	.dt_carousel_inner .prev {
-		left: -100%;
+		left: -25%;
 	}
 }
 /***************************Fim Responsivo***************************/

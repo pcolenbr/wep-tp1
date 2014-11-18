@@ -26,6 +26,12 @@
 	<link rel="stylesheet" href="<?php echo $site_url?>/css/carousel.css" type="text/css" />
 </head>
 
+<script type="text/javascript">
+//<![CDATA[
+ url = '<?php echo $site_url?>';
+//]]>
+</script>
+
 <body>
 	<header>
 

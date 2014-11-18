@@ -29,16 +29,27 @@
 @cor_titulos: #2f4e6f;
 @cor_texto: #151a20;
 
+html {
+	position: relative;
+}
+
 body {
 	font-family: "EncodeSans";
 	color: @cor_texto;
+	margin-bottom: 50px;
 }
 
+h2 {
+	color: @cor_titulos;
+	font-weight: bold;
+	vertical-align: top;
+}
 /**** Header ****/
 header {
 	background: #f3f3f3;
 	position: fixed;
 	width: 100%;
+	z-index: 999;
 
 	nav {
 		display: inline-block;
@@ -81,12 +92,6 @@ header {
 
 		}
 
-		h2 {
-			color: @cor_titulos;
-			font-weight: bold;
-			vertical-align: top;
-		}
-
 		p {
 			display: inline-block;
 		}
@@ -96,8 +101,124 @@ header {
 		}
 	}
 
-	.link {
-		
-	}	
+	.links {
+		border-left: 1px solid @cor_texto;	
+		margin-top: 30px;
+	}
 }
 /**** Fim Inicio ****/
+
+/**** Projetos ****/
+#div-projetos {
+	background: #DBE8F9;
+	>div {
+		padding-left: 15px;
+		padding-right: 15px;
+		margin: auto;
+	}
+
+	.dt_carousel {
+		.dt_carousel_inner {
+			margin: auto;
+		}
+
+		.dt_carousel_control {
+			background: none;
+		}
+	}
+}
+/**** Fim Projetos ****/
+
+/**** Curriculo ****/
+#div-curriculo {
+	padding-right: 15px;
+	padding-left: 15px;
+
+	.download {
+		text-align: center;
+
+		p {
+			font-weight: bold;
+		}
+
+		a { 
+			color: #f3f3f3;
+			background: #2f4e6f;
+			padding: 10px 17px;
+		}
+
+		a:hover {
+			text-decoration: none;
+			opacity: 0.7;
+			cursor: pointer;
+		}
+	}
+}
+/**** Fim Curriculo ****/
+
+/**** Contato ****/
+#div-contato {
+	background-color: #627894;
+	
+	h2 {
+		color: #f3f3f3;
+	}
+
+	h4 {
+		color: #f3f3f3;
+		font-weight: bold;	
+	}
+
+	>div {
+		margin: auto;
+		padding: 30px 15px;
+	}
+
+	.input-contato {
+		border: none;
+		font-size: 17px;
+		padding: 3px 5px;
+		margin-bottom: 8px;
+		width: 100%;
+	}
+	textarea {
+		min-height: 125px;
+	}
+
+	.div-botao-contato {
+		text-align: right;
+		a {
+			background-color: #f3f3f3;
+			padding: 7px 15px;
+			color: #627894;
+			font-weight: bold;
+			font-size: 17px;
+		}
+		a:hover {
+			text-decoration: none;
+			cursor: pointer;
+			background-color: #2f4e6f;
+			color:  #f3f3f3;
+		}	
+	}
+	
+}
+/**** Fim Contato ****/
+
+/**** Footer ****/
+footer {
+	background-color: #2f4e6f;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding-top: 7px;
+	height: 50px;
+
+	p {
+		color: #fff;
+		text-align: center;
+		font-size: 13px;
+		margin-bottom: 0px;
+	}
+}
+/**** Fim Footer ****/

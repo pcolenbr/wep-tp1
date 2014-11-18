@@ -27,4 +27,8 @@
 
 </section>
 
+<?php require_once 'projetos.php';?>
+<?php require_once 'curriculo.php';?>
+<?php require_once 'contato.php';?>
+
 <?php require_once 'footer.php';?>
