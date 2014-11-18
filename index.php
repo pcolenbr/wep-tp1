@@ -1,13 +1,20 @@
 <?php require_once 'header.php';?>
 
-<section class="div-inicio">
+<section id="div-inicio" class="div-inicio">
 
 	<div class="row">
 		<div class="col-lg-9 col-md-9 col-sm-7 col-xs-12 qse">
 			<h2>Quem sou eu?</h2>
 
 			<div class="col-lg-5 col-md-9 col-sm-7 col-xs-12">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id velit pharetra, egestas turpis id, malesuada mauris. Morbi eleifend, odio nec consequat vestibulum, lacus risus euismod leo, in bibendum nunc sapien eget dui. Nunc nec velit ut mauris pulvinar luctus non et neque. Phasellus mi leo, blandit at risus vitae, mollis scelerisque elit. Morbi et dolor aliquet, faucibus nulla nec, interdum ex. Pellentesque a egestas turpis, ut facilisis libero. Integer molestie tincidunt tempor. Vivamus ullamcorper sodales turpis, nec molestie diam fermentum ac. Aliquam ac justo non orci maximus scelerisque. Sed sem ipsum, convallis a vulputate aliquet, ullamcorper ut lectus. Sed non mauris rhoncus, fringilla dui eu, ultricies risus. Morbi ut lacus in diam mollis ornare eget nec turpis.</p>
+				<p>
+					<strong>Nome: </strong>Pedro Colen Cardoso<br>
+					<strong>Idade: </strong>22anos<br>
+					<strong>Altura: </strong>1,73m<br>
+					<strong>Peso: </strong>68kg<br>
+					<br>
+					<strong>Um pouco sobre mim: </strong>Sou aluno do CEFET-MG e estudo Engenharia da Computação. Apesar de todo esteriótipo existente com pessoas da minha área não sou um nerd total. Gosto muito de praticar esportes e de socializar no mundo real. Já tive minha fase de ficar 22h por dia no computador, mas hoje em dia o computador é apenas um ferramenta de trabalho. Vejo a vida como um grande desafio que temos que enfrentar, mas que no final sempre vamos ser recompensados.
+				</p>
 			</div>
 
 			<div class="col-lg-2 col-md-9 col-sm-7 col-xs-12">
@@ -15,13 +22,24 @@
 			</div>
 
 			<div class="col-lg-5 col-md-9 col-sm-7 col-xs-12">
-				<p>Maecenas ligula magna, suscipit in rhoncus at, semper eu enim. Vestibulum cursus tortor at nunc feugiat, ut semper sapien imperdiet. Nulla tincidunt ante ullamcorper accumsan sollicitudin. Morbi in molestie justo. Morbi eget est ante. Cras sit amet tellus nec mi ultricies mollis eu at sapien. Donec cursus vel lectus sit amet suscipit. Phasellus eget est in mauris sagittis accumsan non vestibulum diam. Sed ultricies dolor et nulla mollis rhoncus. Donec turpis justo, lacinia non nisi vitae, ultricies fringilla diam. Nulla nisl quam, condimentum a sollicitudin vel, eleifend sed tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam fringilla massa quis arcu aliquet fermentum. Sed ut nibh a nisl sodales tristique sed dictum eros. Nullam et bibendum mauris.</p>
+				<p>
+					<strong>Filme favorito: </strong>Difícil dizer. Filmes são provavelmente meu passatempo favorito e costumo e ter um filme favórito por semana. Mas o filme que assisti mais vezes na vida foi "Peaceful Warrior".<br>
+					<strong>Livro favorito: </strong>Até dois anos atrás eu não gostava de ler, por isso li pouquissimos livros na minha vida. Em compensação nos ultimos dois anos e meio li mais ou menos 40 livros e tenho muito orgulho disso. Meu livro favorito é com certeza "The Name of the Wind".<br>
+					<strong>O que mais gosta de fazer: </strong>Como já disse ver filme e ler são grande hobbies para mim, mas acho que sempre fui mais ligado a esportes do que qualquer outra coisa. Toda minha vida pratiquei esporte e a cada fase da minha vida pratico um esporte diferente. Nos ultimos anos tenho praticado escalada e não pretendo parar tão cedo.
+				</p>
 			</div>
 		</div>
 
 		<div class="col-lg-3 col-md-3 col-sm-5 col-xs-12 links">
 			<h3>Você não pode deixar de visitar</h3>
-			<p>Esse são alguns sites que, na minha opnião todo ser vivo com habilidades computacionais deveriam visitar.</p>
+			<p>Aqui vou compartilhar com vocês alguns sites que gosto muito e acredito que podem acrescentar algo a vida de qualquer pessoa.</p>
+
+			<a href="" target="_blank">http://pplware.sapo.pt/</a>
+			<a href="" target="_blank">http://googlediscovery.com/</a>
+			<a href="" target="_blank">http://www.thebrocode.com.br/</a>
+			<a href="" target="_blank">http://www.imdb.com.br/</a>
+			<a href="" target="_blank">http://101books.net/</a>
+			<a href="" target="_blank">http://www.loveandlemons.com/</a>
 		</div>
 	</div>
 
